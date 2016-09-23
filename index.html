@@ -3,11 +3,47 @@
 <head>
 	<meta charset="UTF-8">
 	<title>proton-yoko.com</title>
+
+	<link rel="stylesheet" href="style.css">
+	<script>
+
+function message(){
+	//var a = document.getElementById("box1").value;
+	//var b = document.getElementById("box2").value;
+	//a = parseInt(a);
+	//b = parseInt(b);
+	//alert(a+b)
+	document.body.innerHTML += "0, 1, ";
+	for(var i=2; i<100; i++){
+		for(var k=2; k<=i; k++){
+			if(i==k){
+				document.body.innerHTML += "<span style='color : red'>" + i +"</span>, ";
+				break;
+			}
+			if(i%k == 0){
+				document.body.innerHTML += i + ",";
+				break;
+			}
+		}
+	}
+
+
+}
+	
+	</script>
 </head>
 
 <body>
-	<h1 style="color: red;">Hello,world!</h1>
-	<img src="stoneH.jpg" width="100%" height="100%">
+	<h1>hello</h1>
+	<div class="whitebox">
+	
+	<input id="box1" type="text">
+
+	<!--<button onclick="message()">素数表示！！！</button>-->
+	<a href="index.html">りんく</a>
+
+	</div>
+<!--	<img src="stoneH.jpg" width="100%" height="100%"> -->
 </body>
 
 </html>
