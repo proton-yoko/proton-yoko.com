@@ -1,5 +1,5 @@
 body{
-	background-image :url(somewhatroad.jpg);
+	background-image :url("somewhatroad.JPG");
 	background-size	:100% auto;
 	background-attachment :fixed;
 	background-repeat :no-repeat;
