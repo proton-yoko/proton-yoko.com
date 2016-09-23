@@ -1,0 +1,12 @@
+body{
+	background-image :url(somewhatroad.jpg);
+	background-size	:100% auto;
+	background-attachment :fixed;
+	background-repeat :no-repeat;
+}
+
+.whitebox{
+	background-color : rgba(255,255,255,0.7);
+	padding: 16px;
+	padding-top: 63px;
+}
