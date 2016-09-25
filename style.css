@@ -19,4 +19,6 @@ body{
 
 }
 
-div.headphoto.img{width: 100%}
+div.headphoto.img{
+		width: 100%;
+}
