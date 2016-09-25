@@ -6,9 +6,6 @@ body{
 	background-attachment :fixed;
 	background-repeat :no-repeat;
 
-
-	div.headphoto.img {width: 100%}
-
 }
 
 .whitebox{
@@ -22,3 +19,4 @@ body{
 
 }
 
+div.headphoto.img{width: 100%}
