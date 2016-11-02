@@ -45,4 +45,73 @@
 	margin-left: 1em;
 }
 
+/*mainmenu*/
+#mainMenu{
+	font-size: 1.7em;
+	width; 50;
+	text-align: center;
+	letter-spacing: 0.15em;
+}
+
+/*content*/
+
+
+/*footer*/
+#footer{
+	margin: 4em 30px 2em 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 11px;
+	font-size: 1.1em;
+}
+
+.box img{
+	height: auto;
+}
+
+.sb{
+	margin-top: 1.5em;
+}
+
+/*page*/
+
+#page_header{
+	margin-bottom: 3em;
+	text-align: center;
+}
+
+#page_header h2{
+	color: #ff3399;
+   	letter-spacing: 0.1em;
+   	font-size:32px; font-size: 3.2rem;
+}
+
+
+.c2{
+	float:left;
+	display:inline;
+	width:50%;
+	font-size: 1.1em;
+	line-height: 1.5;
+}
+
+.c2_margin{
+	margin:15px;
+}
+
+.c2 p{
+	margin-bottom:1em;
+}
+
+.c2 h4{
+	margin-bottom:0.5em;
+	font-size:15px; font-size: 1.5rem;
+}
+
+.c2_center{
+	text-align: center;
+}
+
+
+
 
